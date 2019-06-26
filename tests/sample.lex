@@ -69,7 +69,7 @@ class Yytoken  {
   public int m_charBegin;
   public int m_charEnd;
   public override String ToString() {
-    return "Token #"+ int.ToString(m_index)+ ": " + m_text  + " (line "+ int.ToString(m_line) + ")";
+    return "Token #"+ m_index.ToString()+ ": " + m_text  + " (line "+ m_line.ToString() + ")";
     }
   }
 

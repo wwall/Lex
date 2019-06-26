@@ -19,15 +19,15 @@ TEST_SRC = $(TEST)\test.txt
 	lex $*.lex
 
 .cs.dll:
-	csc /debug /t:dll $*.cs
+	csc /t:dll $*.cs
 
 .cs.exe:
-	csc /debug /t:exe $*.cs
+	csc /t:exe $*.cs
 
-#	csc /debug /t:exe /out:$(BIN)\lex.exe /D:DEBUG /D:OLD_DEBUG /D:DESCENT_DEBUG /D:FOODEBUG /D:DO_DEBUG /D:OLD_DUMP_DEBUG /D:NOT_EDBG @<<lex.tmp
-#	csc /debug /t:exe /out:$(BIN)\lex.exe /D:DEBUG /D:NOT_EDBG @<<lex.tmp
-#	csc /debug /t:exe /out:$(BIN)\lex.exe /D:DEBUG @<<lex.tmp
-#	csc /debug /t:exe /out:$(BIN)\lex.exe @<<lex.tmp
+#	csc /t:exe /out:$(BIN)\lex.exe /D:DEBUG /D:OLD_DEBUG /D:DESCENT_DEBUG /D:FOODEBUG /D:DO_DEBUG /D:OLD_DUMP_DEBUG /D:NOT_EDBG @<<lex.tmp
+#	csc /t:exe /out:$(BIN)\lex.exe /D:DEBUG /D:NOT_EDBG @<<lex.tmp
+#	csc /t:exe /out:$(BIN)\lex.exe /D:DEBUG @<<lex.tmp
+#	csc /t:exe /out:$(BIN)\lex.exe @<<lex.tmp
 #	csc /t:exe /out:$(BIN)\lex.exe @<<lex.tmp
 
 all : $(BIN)\simple.txt $(BIN)\sample.txt
@@ -53,8 +53,8 @@ $(BIN)\simple_lex.exe : $(BIN)\simple_lex.cs
 $(BIN)\sample_lex.exe : $(BIN)\sample_lex.cs
 
 $(BIN)\lex.exe : $(SRCLIST) makefile
-#	csc /debug /t:exe /out:$(BIN)\lex.exe /D:DEBUG /D:OLD_DEBUG /D:DESCENT_DEBUG /D:FOODEBUG /D:DO_DEBUG /D:OLD_DUMP_DEBUG /D:NOT_EDBG @<<lex.tmp
-	csc /debug /t:exe /out:$(BIN)\lex.exe @<<lex.tmp
+#	csc /t:exe /out:$(BIN)\lex.exe /D:DEBUG /D:OLD_DEBUG /D:DESCENT_DEBUG /D:FOODEBUG /D:DO_DEBUG /D:OLD_DUMP_DEBUG /D:NOT_EDBG @<<lex.tmp
+	csc /t:exe /out:$(BIN)\lex.exe @<<lex.tmp
 $(SRCLIST)
 <<
 

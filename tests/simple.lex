@@ -51,8 +51,8 @@ internal Yytoken(int index, String text, int line, int charBegin, int charEnd)
 
 public override String ToString()
   {
-  return "Token #"+ int.ToString(m_index)+ ": " + m_text
-    + " (line "+ int.ToString(m_line) + ")";
+  return "Token #"+ m_index.ToString()+ ": " + m_text
+    + " (line "+ m_index.ToString() + ")";
   }
 }
 
