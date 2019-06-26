@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lex", "Lex\Lex.csproj", "{53CF2537-0021-4AF1-A48D-F49A5E3CACD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lex", "src\Lex.csproj", "{53CF2537-0021-4AF1-A48D-F49A5E3CACD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96CC4BAB-7F2D-4BEA-B7B3-2BAEFCAD0DCF}
 	EndGlobalSection
 EndGlobal
