@@ -1,0 +1,7 @@
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\bin\Release\Lex.exe.config
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\bin\Release\Lex.exe
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\bin\Release\Lex.pdb
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\obj\Release\Lex.csprojAssemblyReference.cache
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\obj\Release\Lex.csproj.CoreCompileInputs.cache
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\obj\Release\Lex.exe
+E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\obj\Release\Lex.pdb
