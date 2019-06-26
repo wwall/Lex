@@ -1,4 +1,0 @@
-E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\obj\Debug\Lex.csprojAssemblyReference.cache
-E:\ntroot\Work\2002 MSR\Lex\Lex\Lex\obj\Debug\Lex.csproj.CoreCompileInputs.cache
-E:\ntroot\research\RiSE\Lex\Lex\Lex\obj\Debug\Lex.csprojAssemblyReference.cache
-E:\ntroot\research\RiSE\Lex\Lex\Lex\obj\Debug\Lex.csproj.CoreCompileInputs.cache
