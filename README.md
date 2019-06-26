@@ -15,5 +15,4 @@ To run the tests cd to the src directory:
 
 And type:
 
-```
 nmake
